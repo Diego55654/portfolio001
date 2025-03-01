@@ -104,34 +104,6 @@ a:hover {
     text-align: justify;
     margin-bottom: 16px;
 }
-
-
-.voltar-btn {
-    position: relative;
-    bottom: -20px; 
-    right:100px;  
-    padding: 15px 30px;
-    background-color: #008f66;
-    color: #ffffff;
-    font-family: "DotGothic16";
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-.voltar-btn:hover {
-    background-color: #006e4c; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-
-.voltar-btn:hover {
-    background-color: #00ff99;
-}
-
-
 /*Projetos*/
 body{
     margin: 0;
