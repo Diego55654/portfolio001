@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0;
+    font-family: "Arial", serif;
+    background-color:#1A1A1A;
+    line-height: 1.6;
+}
+
+.img{
+    display: flex;
+}
+.icons img {
+    width: 150px;
+    margin: 10px;
+}
+.icons { 
+    padding: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+header{
+    font-family: "DotGothic16";
+}
+
+.navbar-brand {
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #b678ef !important; 
+    text-shadow: 0 0 8px #8A2BE2, 0 0 15px #32CD32; 
+}
+
+/*Sobre Mim*/
+body{
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    font-family: "Arial", sans-serif;
+    padding: 0;
+    margin:0;
+    line-height: 1.5;
+}
+a{
+    color: #00ff99;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #00ff99;
+}
+.sobre-mim-container{
+    max-width: 800px;
+    margin: auto;
+    padding:20px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 15px rgba(0, 255, 150, 0.3);
+}
+.sobre-mim-container h1{
+    font-family: "Press Start 2P", sans-serif;
+    color: #00ff99;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 2px,2px,2px,2px rgba(0, 255, 150, 0.3);
+}
+.sobre-mim-container p{
+    font-size:16px;
+    text-align: justify;
+    margin-bottom:16px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    margin-top:10px;
+    background-color: black;
+    color:#00ff99;
+    font-size: 15px;
+    border-top: 2px solid #00ff99;
+}
+/*Projetos*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#1A1A1A;
+    color: #d4d4d4;
+    font-family: "Arial", sans-serif;
+    line-height: 1.5;
+}
+h1{
+    font-family: "Press Start 2P",sans-serif;
+    color: #00ff99;
+}
+#projetos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Projetos-list-gif {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.projeto {
+    position: relative;
+    margin: 20px;
+    width: fit-content;
+    flex:1 1 45%;
+    max-width: 45%;
+    box-shadow: 0px 0px 15px rgba(0, 255, 150, 0.3);
+}
+
+.projeto video {
+    display: none;
+    position: relative;
+    margin-right: 50px;
+    width: 23%;
+    height: 20%;
+}
+
+.projeto:hover video {
+    display: block;
+    float: right;
+}
+
+.projeto .static-image {
+    display: block;
+    width: 50%;
+}
+.projeto2{
+    position: relative;
+    margin: 20px;
+    width: fit-content;
+    flex:1 1 45%;
+    max-width: 45%;
+    box-shadow: 0px 0px 15px rgba(0, 255, 150, 0.3);
+}
+button{
+    float: right;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin:20px;
+    border:none;
+}
+/*
+@media (max-width:720px){
+    body{
+        font-size: 13px;
+        width: fit-content;
+        height: fit-content;
+    }
+} */
