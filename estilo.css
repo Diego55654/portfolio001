@@ -8,7 +8,7 @@
 body{
     margin: 0;
     padding:0;
-    font-family: "Arial", serif;
+    font-family: "Tinos", sans-serif;
     background-color:#1A1A1A;
     line-height: 1.6;
 }
@@ -29,79 +29,125 @@ body{
 }
 
 header{
-    font-family: "DotGothic16";
+    font-family: "Tinos";
 }
 
 .navbar-brand {
-    transition: color 0.3s ease-in-out;
+    border-radius:5px;
+    color: #ffffff; 
+    font-family: "DotGothic16";
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px;
+    align-content: center;
+    border: none;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .navbar-brand:hover {
-    color: #b678ef !important; 
-    text-shadow: 0 0 8px #8A2BE2, 0 0 15px #32CD32; 
+    background-color: #00ff99;
+    box-shadow: 0 0 10px #00ff99, 0 0 20px #32CD32
+}
+/*Estilo Footer para todos os elementos*/
+.Footer  {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: #00ff99;
+    font-size: 16px;
+    border-top: 2px solid #00ff99;
+    margin-top: 20px;
 }
 
 /*Sobre Mim*/
-body{
+body {
     background-color: #1e1e1e;
     color: #d4d4d4;
-    font-family: "Arial", sans-serif;
+    font-family: "Tinos", sans-serif;
     padding: 0;
-    margin:0;
-    line-height: 1.5;
+    margin: 0;
+    line-height: 1.6;
 }
-a{
+
+a {
     color: #00ff99;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     cursor: pointer;
     text-decoration: underline;
     color: #00ff99;
 }
-.sobre-mim-container{
-    max-width: 800px;
+
+.sobre-mim-container {
+    max-width: 900px;
     margin: auto;
-    padding:20px;
+    padding: 50px;
     border-radius: 10px;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     box-shadow: 0px 0px 15px rgba(0, 255, 150, 0.3);
 }
-.sobre-mim-container h1{
+
+.sobre-mim-container h1 {
     font-family: "Press Start 2P", sans-serif;
+    padding-bottom: 16px;
     color: #00ff99;
     font-size: 20px;
     text-align: center;
-    box-shadow: 2px,2px,2px,2px rgba(0, 255, 150, 0.3);
+    box-shadow: 2px 2px 2px 2px rgba(0, 255, 150, 0.3);
 }
-.sobre-mim-container p{
-    font-size:16px;
+
+.sobre-mim-container p {
+    font-size: 18px;
     text-align: justify;
-    margin-bottom:16px;
+    margin-bottom: 16px;
 }
-footer{
-    text-align: center;
-    padding: 10px;
-    margin-top:10px;
-    background-color: black;
-    color:#00ff99;
-    font-size: 15px;
-    border-top: 2px solid #00ff99;
+
+
+.voltar-btn {
+    position: relative;
+    bottom: -20px; 
+    right:100px;  
+    padding: 15px 30px;
+    background-color: #008f66;
+    color: #ffffff;
+    font-family: "DotGothic16";
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
+
+.voltar-btn:hover {
+    background-color: #006e4c; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.voltar-btn:hover {
+    background-color: #00ff99;
+}
+
+
 /*Projetos*/
 body{
     margin: 0;
     padding: 0;
     background-color:#1A1A1A;
     color: #d4d4d4;
-    font-family: "Arial", sans-serif;
-    line-height: 1.5;
+    font-size: 16px;
+    font-family: "Tinos", sans-serif;
+    line-height: 1.6;
 }
 h1{
     font-family: "Press Start 2P",sans-serif;
     color: #00ff99;
 }
 #projetos-container {
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,7 +170,7 @@ h1{
     display: none;
     position: relative;
     margin-right: 50px;
-    width: 23%;
+    width: 22%;
     height: 20%;
 }
 
@@ -145,21 +191,30 @@ h1{
     max-width: 45%;
     box-shadow: 0px 0px 15px rgba(0, 255, 150, 0.3);
 }
-button{
+button {
     float: right;
     border-radius: 5px;
-    color: #000000;
+    background-color: #008f66; 
+    color: #ffffff; 
+    font-family: "DotGothic16";
     font-size: 16px;
     cursor: pointer;
-    padding: 10px 20px;
-    margin:20px;
-    border:none;
+    padding: 15px 30px;
+    margin: 20px;
+    border: none;
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-/*
+
+button:hover {
+    background-color: #00ff99;
+    box-shadow: 0 0 10px #00ff99, 0 0 20px #32CD32;
+}
+
+
 @media (max-width:720px){
     body{
         font-size: 13px;
         width: fit-content;
         height: fit-content;
     }
-} */
+} 
